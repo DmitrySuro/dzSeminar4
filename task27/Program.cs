@@ -16,7 +16,7 @@ System.Console.Clear();
     while (count < userNumber)
     { 
         if (userNumber % 10 == 0)
-          userNumber /= 10;
+            userNumber /= 10;
         digit = userNumber % 10;
         sum +=digit;
         userNumber /= 10;
